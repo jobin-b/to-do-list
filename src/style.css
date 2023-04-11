@@ -1,0 +1,29 @@
+#addTask {
+    position: fixed;
+    bottom: 5vh;
+    right: 5vh;
+    width: 150px;
+    height: 150px;
+    background-color: lightblue;
+    color: rgb(56, 56, 120);
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+#sidebar {
+    width: 40vw;
+    background-color: grey;
+    margin: 0;
+}
+
+#content {
+    width: 60vw;
+    background-color: burlywood;
+    margin: 0;
+
+}
